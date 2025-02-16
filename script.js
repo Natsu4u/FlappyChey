@@ -120,7 +120,7 @@ function draw() {
         ctx.fillStyle = "red";
         ctx.font = "50px Arial";
         ctx.textAlign = "center";
-        ctx.fillText("Game Over!", canvas.width / 2, canvas.height / 2);
+        ctx.fillText("Cupu Kamu Cheyy!", canvas.width / 2, canvas.height / 2);
     }
 }
 
