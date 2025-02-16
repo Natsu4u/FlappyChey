@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Flappy Bird Mobile</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: skyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+<audio id="bgMusic" loop>
+    <source src="backround.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="jumpSound">
+    <source src="jump.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="gameOverSound">
+    <source src="gameover.mp3" type="audio/mpeg">
+</audio>
+
+</html>
